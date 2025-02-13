@@ -1,4 +1,4 @@
-# jianti-2-fanti
+# simp2trad-epub
 
 A simple Python tool to convert an EPUB's content from Simplified Chinese to Traditional Chinese using `opencc` and `ebooklib`.
 
@@ -65,7 +65,7 @@ Then run the above command to install dependencies.
 To convert an EPUB file, run the script with the path to your EPUB file as an argument:
 
 ```bash
-python jianti_2_fanti.py path/to/your/book.epub
+python simp2trad_epub.py path/to/your/book.epub
 ```
 
 This will generate a new EPUB file in the same directory with `_traditional` appended to the original filename (e.g., `book_traditional.epub`).
