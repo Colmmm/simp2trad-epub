@@ -6,7 +6,7 @@ from ebooklib import epub
 
 def convert_epub(input_file, output_file):
     # Initialize the converter for Simplified-to-Traditional conversion
-    converter = opencc.OpenCC('s2t.json')
+    converter = opencc.OpenCC('s2tw.json')
     
     try:
         book = epub.read_epub(input_file)
